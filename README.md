@@ -22,8 +22,9 @@
 # Instalación
 - Descargar el archivo zip de la rama main.
 - Instalar laragon(https://laragon.org/download/) e iniciarlo.
-- Pegar el contenido del archivo zip del proyecto en C:\laragon\www
-- Abrir una nueva terminal(cmd) de laragon y posicionarnos en la nueva ruta del proyecto con el comando "cd" ejemplo: "cd C:\laragon\www\productos-main"
+<img src="https://github.com/JDanielOrdonez/productos/blob/main/screenshots/laragon-iniciar.JPG" width="150px"/>
+- Pegar el contenido del archivo zip del proyecto en la ruta "C:\laragon\www"
+- Abrir una nueva terminal(cmd) de laragon y posicionarse en la nueva ruta del proyecto con el comando "cd" ejemplo: "cd C:\laragon\www\productos-main"
 - Una vez ubicados en "C:\laragon\www\productos-main" se procede a instalar composer con el siguiente comando "composer install".
 - Nuevamente en la terminal ejecutamos los siguientes comandos
 -   "npm install".
