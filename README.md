@@ -25,8 +25,11 @@
 - <img src="https://github.com/JDanielOrdonez/productos/blob/main/screenshots/laragon-iniciar.JPG" width="50%"/>
 - Pegar el contenido del archivo zip del proyecto en la ruta "C:\laragon\www"
 - Abrir una nueva terminal(cmd) de laragon y posicionarse en la nueva ruta del proyecto con el comando "cd" ejemplo: "cd C:\laragon\www\productos-main"
+- <img src="https://github.com/JDanielOrdonez/productos/blob/main/screenshots/laragon-abrir-terminal.JPG" width="50%"/>
+- <img src="https://github.com/JDanielOrdonez/productos/blob/main/screenshots/laragon-terminal-cd.JPG" width="50%"/>
 - Una vez ubicados en "C:\laragon\www\productos-main" se procede a instalar composer con el siguiente comando "composer install".
 - Nuevamente en la terminal ejecutamos los siguientes comandos
 -   "npm install".
 -   "php artisan migrate"
 - Iniciar la aplicación
+- <img src="https://github.com/JDanielOrdonez/productos/blob/main/screenshots/Captura%20de%20pantalla%20(956).png" width="50%"/>
