@@ -9,18 +9,19 @@
 
 ## Lista de productos - Laravel 9 & php
 
+# Prueba de funcionamiento
+<img src="https://github.com/JDanielOrdonez/productos/blob/main/screenshots/lista-vacia.JPG" />  
+
 # Instalación
 - Descargar el archivo zip de la rama main.
-- Instalar laragon(https://laragon.org/download/).
-- Pegar el contenido del archivo zip del proyecto en C:\laragon\www.
-- Abrir una nueva terminal(cmd) y posicionarnos en la nueva ruta del proyecto "cd" ejemplo: "cd C:\laragon\www\productos-main"
+- Instalar laragon(https://laragon.org/download/) e iniciarlo.
+- Pegar el contenido del archivo zip del proyecto en C:\laragon\www
+- Abrir una nueva terminal(cmd) de laragon y posicionarnos en la nueva ruta del proyecto con el comando "cd" ejemplo: "cd C:\laragon\www\productos-main"
 - Una vez ubicados en "C:\laragon\www\productos-main" se procede a instalar composer con el siguiente comando "composer install".
-- Hacer una copia del archivo ".env.example" y guardarlo como ".env".
-- Nuevamente en la terminal ejecutamos el siguiente comando "php artisan key:generate"
-- En la terminal ejecutar "npm install" para instalar las dependencias de node.
-- En la terminal ejecutar "php artisan migrate"
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- Nuevamente en la terminal ejecutamos los siguientes comandos
+-   "npm install".
+-   "php artisan migrate"
+- Iniciar la aplicación
 
 ## Learning Laravel
 
