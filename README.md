@@ -30,6 +30,7 @@
 - Una vez ubicados en "C:\laragon\www\productos-main" se procede a instalar composer con el siguiente comando "composer install".
 - Nuevamente en la terminal ejecutamos los siguientes comandos
 -   "npm install".
+-   "npm run dev"
 -   "php artisan migrate"
 - Iniciar la aplicación
 - <img src="https://github.com/JDanielOrdonez/productos/blob/main/screenshots/Captura%20de%20pantalla%20(956).png" width="50%"/>
