@@ -7,17 +7,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Lista de productos - Laravel 9 & php
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# Instalación
+- Descargar el archivo zip de la rama main.
+- Instalar laragon(https://laragon.org/download/).
+- Pegar el contenido del archivo zip del proyecto en C:\laragon\www.
+- Abrir una nueva terminal(cmd) y posicionarnos en la nueva ruta del proyecto "cd" ejemplo: "cd C:\laragon\www\productos-main"
+- Una vez ubicados en "C:\laragon\www\productos-main" se procede a instalar composer con el siguiente comando "composer install".
+- Hacer una copia del archivo ".env.example" y guardarlo como ".env".
+- Nuevamente en la terminal ejecutamos el siguiente comando "php artisan key:generate"
+- En la terminal ejecutar "npm install" para instalar las dependencias de node.
+- En la terminal ejecutar "php artisan migrate"
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
